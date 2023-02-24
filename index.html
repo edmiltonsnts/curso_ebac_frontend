@@ -17,17 +17,17 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#about">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </ul> 
         </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
             <img  class="store-front" src="./images/loja.jpg" alt="fachada loja de games">
             <div>
@@ -42,21 +42,22 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact">
         <div class="container">
             <h2>Contato</h2>
             <div class="contact-methods">
-                <h3>Fale conosco</h3>
+                <div>
+                    <h3>Fale conosco</h3>
                 <form>
-                    <input type="text" name="nome" placeholder="Seu nome"/>              
-                    <input type="email" name="email" placeholder="Seu email"/>
-                    <input type="tel" name="tel" placeholder="Seu telefone"/>
-                    <textarea name="mensagem"  placeholder="Sua mensagem"></textarea>
+                    <input type="text" name="nome" placeholder="Seu nome" required/>              
+                    <input type="email" name="email" placeholder="Seu email" required/>
+                    <input type="tel" name="tel" placeholder="Seu telefone" required/>
+                    <textarea name="mensagem"  placeholder="Sua mensagem" required></textarea>
                     <button type="submit">Enviar</button>
                 </form>
-            </div>
-            <div>
-                <h2>Nos acompanhe</h2>
+            </div> 
+          <div>
+                <h3>Nos acompanhe</h3>
                 <ul class="social-links">
                     <li> 
                         <a href="#" title="Siga-nos no Instagram"> <img src="./images/instagram.png" alt="logo instagram"></a>
@@ -65,18 +66,27 @@
                         <a href="#" title="Siga-nos no facebook"> <img src="./images/facebook.png" alt="logo facebook"></a>
                     </li>
                     <li> 
-                        <a href="#" title="Visete nosso canal no youtube"> <img src="./images/instagram.png" alt="logo youtube"></a>
+                        <a href="#" title="Visete nosso canal no youtube"> <img src="./images/youtube.png" alt="logo youtube"></a>
                     </li>
                 </ul>
             </div>
             <div>
                 <h2>Nosso endereço</h2>
-                <p>
+                <p> <address>
                     Rua JavaScript n°124, Vila HTML - CSS - SP - CEP-12346-000
+                </address>
+                    
                 </p>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
     
 </body>
 </html>
