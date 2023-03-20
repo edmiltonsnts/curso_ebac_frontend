@@ -8,15 +8,13 @@ document.querySelector('form').addEventListener('submit', function(event) {
     
     if (valor1 > valor2) {
       resultado = "Formulário inválido o valor 1 é maior que o valor 2.";
-    } else if (valor2 > valor1) {
-      resultado = "O formulário e válido pois o valor 2 é maior que o valor 1.";
-    } else {
-      resultado = "Formulário inválido os valores são iguais.";
-    }
+      
+    } else if (valor2 >= valor1) {
+      resultado = "O formulário e válido pois o valor 2 é maior ou igual ao valor 1.";
+  
+    } 
+      
+    var resultadoElemento = alert(resultado)
     
-    
-    var resultadoElemento = document.createElement('p');
-    resultadoElemento.textContent = resultado;
-    document.body.appendChild(resultadoElemento);
   });
   
