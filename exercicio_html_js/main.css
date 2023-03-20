@@ -1,0 +1,46 @@
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    margin-left: 15px;
+    max-width: 450px;
+    width: 100%;
+    
+}
+
+#campos {
+    margin-top: 50px;
+    
+}
+
+
+input, textarea, button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    resize: none;
+    background-color: rgb(121, 45, 45);
+    color: #050000;
+    
+    
+}
+
+#btn-enviar {
+    background-color: rgb(180, 69, 69);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+#btn-enviar:hover {
+    background-color: #f30c0c;
+}
