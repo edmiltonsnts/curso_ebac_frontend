@@ -28,3 +28,18 @@ header h1 {
     width: 100%;
     margin: 0 auto;
 }
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
